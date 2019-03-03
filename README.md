@@ -8,11 +8,13 @@ Objective is to find anagrams as fast as possible.
 Made in C++. Meant for x86_64-linux-gnu. Built and tested in Ubuntu 18.10. Cannot confirm other distros/architectures.
 ```
 g++ -o anagram_finder  anagram.cpp -O3
+
 ```
+## Using prebuilt binary
+
+located in `\bin`. Needs to be executable (e.g `chmod +x anagram_finder`).
 
 ## Usage
-
-A prebuilt binary locates in /bin.
 
 Needs a dictionary file to work. System needs to use the same encoding as the dictionary file. For example if using ["lemmad.txt"](http://www.eki.ee/tarkvara/wordlist/lemmad.zip) dictionary - the system needs to be in ISO-8859-13. Dictionary file can be with both DOS and UNIX line endings. Outputs the time it took to find all anagrams(microseconds) and outputs results in coma separated format. If output returns the same words as input, it gets removed. 
 
