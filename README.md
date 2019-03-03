@@ -7,7 +7,7 @@ Objective is to find anagrams as fast as possible.
 
 Made in C++. Meant for x86_64-linux-gnu. Built and tested in Ubuntu 18.10. Cannot confirm other distros/architectures.
 ```
-g++ -o anagram_finder  anagram.cpp -Ofast
+g++ -o anagram_finder  anagram.cpp -O3
 ```
 
 ## Usage
